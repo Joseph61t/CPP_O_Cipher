@@ -116,8 +116,7 @@ class Ottendorf_Cipher {
         while (getline(s, word, ' ')) {
             inputWords.push_back(word);
             // cout << word << endl;
-        } //  Talk to bro. Macbeth
-        // atoi(someIntAsString) converts to int.
+        }
 
         // set up iterator for words.
         vector<string>::iterator it;
